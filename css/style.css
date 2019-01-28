@@ -1,0 +1,262 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:white;
+  }
+
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+
+  ul{
+    margin:0;
+    padding:0;
+  }
+
+  /*HEADER*/
+  header{
+    background-color:black;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+  }
+  
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+  
+  header li{
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+  
+  header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+  }
+  
+  header a:hover{
+    font-weight: bolder;
+  }
+
+  /* Showcase */
+#showcase{
+    min-height:400px;
+    background-image: url('../img/close-up-door-focus-101808.jpg');
+    
+    background-size: cover;
+    text-align:center;
+    color: #0E6251;
+  }
+  
+  #showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+  }
+  
+  #showcase p{
+    font-size:20px;
+    font-weight: bold;
+  }
+
+  .button_1{
+    height:38px;
+    background:#e8491d;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  } 
+  
+  /* Newsletter */
+#newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:black
+  }
+  
+  #newsletter h1{
+    float:left;
+  }
+  
+  #newsletter form {
+    float:right;
+    margin-top:15px;
+  }
+  
+  #newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+  }
+
+  /*BOXES*/
+  footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:black;
+    text-align: center;
+  }
+
+
+  /*BOXES*/
+  #boxes{
+    margin-top:20px;
+  }
+  
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+  }
+  
+  #boxes .box img{
+    width:90px;
+  }
+  
+
+  /* Media Queries */
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+  
+    header{
+      padding-bottom:20px;
+    }
+  
+    #showcase h1{
+      margin-top:40px;
+    }
+  
+    #newsletter button, .quote button{
+      display:block;
+      width:100%;
+    }
+  
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+      width:100%;
+      margin-bottom:5px;
+    }
+  }
+  
+  .well{
+    text-align: center;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    background-color:#F6DDCC  ;
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+
+  .buybutton{
+    position: relative;
+    float: right;
+    padding: 10px;
+    background-color: green;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 15px;
+  }  
+
+  .sellbutton{
+      padding: 10px;
+      background-color: #F1C40F;
+      text-decoration: none;
+      color: aliceblue;
+      border-radius: 2px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: 20px;
+      cursor: pointer;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  .sell{
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    
+  }
+
+  .sell input{
+    border-radius: 5px;
+    height: 35px;
+    width: 30%;
+    margin: 10px;
+    border:2px solid #809994;
+  }
+
+  .sell input::placeholder{
+    text-align: center;
+  }
+
+  .sell #body{
+    height: 80px;
+  }
+
+  .delbutton{
+    position: relative;
+    float: right;
+    padding: 10px;
+    background-color: red;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 15px;
+  }
+  
+
+.users{
+  display: block;
+  text-align: center;
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  background-color:#F6DDCC  ;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
